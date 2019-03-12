@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FootprintLib_Example' do
+  pod 'FootprintLib', :path => '../'
+
+  target 'FootprintLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
