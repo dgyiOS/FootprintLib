@@ -1,0 +1,23 @@
+PODS:
+  - FootprintLib (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FootprintLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  FootprintLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FootprintLib: c2f8e2cf35ac3148f1d6fbb09324158f8f94b5f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 31f5f4091aaf3f1ccbc13f600873d9576cd7a72b
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module FootprintLib {
+  umbrella header "FootprintLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
