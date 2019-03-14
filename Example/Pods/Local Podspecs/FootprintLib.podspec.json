@@ -1,6 +1,6 @@
 {
   "name": "FootprintLib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A FootprintLib to use",
   "description": "fuck test a FootprintLib",
   "homepage": "https://github.com/dgyiOS/FootprintLib",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/dgyiOS/FootprintLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "FootprintLib/Classes/**/*",
   "resources": [
-    "FootprintLib/Assets/*"
+    "FootprintLib/Assets/*.png"
   ],
   "frameworks": "UIKit",
   "dependencies": {
