@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FootprintLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A FootprintLib to use'
 
   s.description      = <<-DESC
@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FootprintLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FootprintLib' => ['FootprintLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'FootprintLib' => ['FootprintLib/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

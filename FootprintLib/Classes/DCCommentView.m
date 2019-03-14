@@ -8,6 +8,8 @@
 
 #import "DCCommentView.h"
 #import <Masonry/Masonry.h>
+#import "UIResponder+EventResponder.h"
+#import "DCHeader.h"
 
 @interface DCCommentCell ()
 
@@ -21,6 +23,7 @@
               reuseIdentifier:(NSString *)reuseIdentifier {
     
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.contentView.backgroundColor = [UIColor grayColor];
         [self buildSubviews];
         [self buildSubviewsConstraints];
     }
@@ -62,6 +65,7 @@
         self.backgroundColor = [UIColor grayColor];
         [self buildSubviews];
         [self buildSubviewsConstraints];
+        [self registerCommentViewEvents];
     }
     return self;
 }
@@ -70,8 +74,10 @@
     _countLab = [[UILabel alloc]init];
     _countLab.font = [UIFont systemFontOfSize:13.f];
     _countLab.textColor = [UIColor yellowColor];
+    _countLab.text = @"共有2条评论";
     
     _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _tableView.showsVerticalScrollIndicator = NO;
@@ -96,6 +102,7 @@
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.countLab.mas_bottom).offset(10);
         make.left.right.bottom.mas_equalTo(self);
+        make.height.mas_equalTo(46);
     }];
 }
 
@@ -104,19 +111,33 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.dataArray.count;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     DCCommentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DCCommentCell"];
-    
-    
+    cell.commentLab.text = @"我就是一条评论而已";
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 44;
+    return 23;
 }
 
+#pragma mark -- event
+- (void)registerCommentViewEvents {
+    UITapGestureRecognizer *commentViewTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(skipCommentList)];
+    [self addGestureRecognizer:commentViewTap];
+}
+
+- (void)skipCommentList {
+    [self routeEventWithName:DCCommentViewSkipCommentListVC userInfo:@{}];
+}
+
+
+#pragma mark -- 填充假数据
+- (void)fillFalseData {
+    
+}
 
 @end

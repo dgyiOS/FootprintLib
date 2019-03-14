@@ -32,6 +32,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) UIButton                               *placedTextBtn; //提示开始评论
 @property (nonatomic, readonly) UILabel                                *dateLab;       //发布日期
 
+- (void)updateMineCommonViewConstraints;
+- (void)updateOtherCommonViewConstraints;
+
+//填充假数据
+- (void)fillFalseData;
+
 @end
 
 NS_ASSUME_NONNULL_END

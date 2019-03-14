@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DCFootprintProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,10 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DCCommentView : UIView
 
-@property (nonatomic, strong) NSArray *dataArray;
-
 @property (nonatomic, readonly) UILabel *countLab;
 @property (nonatomic, readonly) UITableView *tableView;
+@property (nonatomic, weak) id<DCFootprintProtocol> delegate;
+
+- (void)fillFalseData;
 
 @end
 

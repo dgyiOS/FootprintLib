@@ -8,6 +8,8 @@
 
 #import "DCUserInfoView.h"
 #import <Masonry/Masonry.h>
+#import "UIResponder+EventResponder.h"
+#import "DCHeader.h"
 
 @interface DCUserInfoView ()
 
@@ -26,6 +28,7 @@
     if (self) {
         [self buildSubviews];
         [self buildSubviewsConstraints];
+        [self fillFalseData];
     }
     return self;
 }
@@ -38,6 +41,7 @@
     
     self.iconImgV = ({
         UIImageView *imgv = [[UIImageView alloc]init];
+        imgv.image = [UIImage imageNamed:@"fp_avatar"];
         imgv.layer.masksToBounds = YES;
         imgv.userInteractionEnabled = YES;
         imgv.contentMode = UIViewContentModeScaleAspectFill;
@@ -61,6 +65,7 @@
     
     self.followBtn = ({
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [btn setBackgroundImage:[UIImage imageNamed:@"fp_addFollow"] forState:UIControlStateNormal];
         [btn setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
         btn.hidden = YES;
         btn;
@@ -102,6 +107,8 @@
         make.right.mas_equalTo(self.mas_right).offset(-15);
         make.size.mas_equalTo(CGSizeMake(66, 28));
     }];
+    
+    [self isMineInfo:NO];
 }
 
 - (void)isMineInfo:(BOOL)isMine {
@@ -133,6 +140,29 @@
 
 - (void)setFollowBtn_img:(UIImage *)followBtn_img {
     [self.followBtn setBackgroundImage:followBtn_img forState:UIControlStateNormal];
+}
+
+- (void)registerUserInfoViewEvent {
+    UITapGestureRecognizer *tapIcon = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(skipPersonalCenter)];
+    [self.iconImgV addGestureRecognizer:tapIcon];
+    
+    [self.followBtn addTarget:self action:@selector(changeToOtherFollowStatus:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+#pragma mark -- 事件
+- (void)skipPersonalCenter {
+    [self.iconImgV routeEventWithName:DCUserInfoViewSkipPersonalCenter userInfo:@{}];
+}
+
+- (void)changeToOtherFollowStatus:(UIButton *)sender {
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setValue:sender forKey:DCUserInfoViewChangeFollowStatus];
+    [self.followBtn routeEventWithName:DCUserInfoViewChangeFollowStatus userInfo:dic];
+}
+
+#pragma mark -- fill False data
+- (void)fillFalseData {
+    self.nickLab.text = @"昵称";
 }
 
 @end

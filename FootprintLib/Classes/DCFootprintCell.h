@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DCFootprintCellEventProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,8 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) UIImageView *playImgV;
 @property (nonatomic, readonly) DCPicsBannerView *picsView;
 @property (nonatomic, readonly) DCCommonView *commonView;
-
-@property (nonatomic, weak) id<DCFootprintCellEventProtocol> delegate;
 
 @end
 

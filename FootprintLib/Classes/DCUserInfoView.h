@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)isMineInfo:(BOOL)isMine;
 
+- (void)fillFalseData;
 
 @end
 
