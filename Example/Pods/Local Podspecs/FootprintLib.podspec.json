@@ -19,9 +19,11 @@
     "ios": "8.0"
   },
   "source_files": "FootprintLib/Classes/**/*",
-  "resources": [
-    "FootprintLib/Assets/*.png"
-  ],
+  "resource_bundles": {
+    "FootprintLib": [
+      "FootprintLib/Assets/*.png"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [

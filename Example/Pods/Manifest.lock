@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FootprintLib: f6316211bce34c2fe5a1f6ad5f5c521bb450b0a0
+  FootprintLib: e7787bb6e01b02744b5978a7fcfe00dd46e8aa43
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 31f5f4091aaf3f1ccbc13f600873d9576cd7a72b
