@@ -14,6 +14,7 @@
 #import <Masonry/Masonry.h>
 #import "DCHeader.h"
 #import "UIResponder+EventResponder.h"
+#import "NSBundle+ImageAssets.h"
 
 @interface DCFootprintCell ()
 
@@ -44,7 +45,7 @@
     
     //视频承载view，imageView放coverImage使用
     self.videoImgV = [[UIImageView alloc]init];
-    self.playImgV = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"find_footmark_details_video_icon"]];
+    self.playImgV = [[UIImageView alloc]initWithImage:[NSBundle generateImageWithClass:[self class] imageName:@"find_footmark_details_video_icon"]];
     
     //手动滑动轮播图 单图无分页，多图有分页且分页在图片下面(呵呵)
     self.picsView = [[DCPicsBannerView alloc]init];

@@ -17,6 +17,7 @@
 #import "DCHeader.h"
 #import "DCPicsBannerView.h"
 #import "DCUserInfoView.h"
+#import "NSBundle+ImageAssets.h"
 #import "DCAttributedLabel.h"
 #import "DCAttributedLabelUtils.h"
 #import "NSMutableAttributedString+Config.h"

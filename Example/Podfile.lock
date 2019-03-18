@@ -1,5 +1,5 @@
 PODS:
-  - FootprintLib (0.1.3):
+  - FootprintLib (0.1.4):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FootprintLib: 3f727465ce1ecc5145c895b24e798f52fabc3a87
+  FootprintLib: c64175253093e21de6dc02b94318b256aff605ca
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 31f5f4091aaf3f1ccbc13f600873d9576cd7a72b

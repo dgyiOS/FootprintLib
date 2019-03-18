@@ -10,6 +10,7 @@
 #import <Masonry/Masonry.h>
 #import "UIResponder+EventResponder.h"
 #import "DCHeader.h"
+#import "NSBundle+ImageAssets.h"
 
 @interface DCUserInfoView ()
 
@@ -41,7 +42,7 @@
     
     self.iconImgV = ({
         UIImageView *imgv = [[UIImageView alloc]init];
-        imgv.image = [UIImage imageNamed:@"fp_avatar"];
+        imgv.image = [NSBundle generateImageWithClass:[self class] imageName:@"avatar"];
         imgv.layer.masksToBounds = YES;
         imgv.userInteractionEnabled = YES;
         imgv.contentMode = UIViewContentModeScaleAspectFill;
@@ -65,7 +66,7 @@
     
     self.followBtn = ({
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [btn setBackgroundImage:[UIImage imageNamed:@"fp_addFollow"] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_addFollow"] forState:UIControlStateNormal];
         [btn setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
         btn.hidden = YES;
         btn;

@@ -10,6 +10,7 @@
 #import <Masonry/Masonry.h>
 #import "UIResponder+EventResponder.h"
 #import "DCHeader.h"
+#import "NSBundle+ImageAssets.h"
 
 @interface DCPicCell ()
 
@@ -33,11 +34,11 @@
 - (void)buildSubviews {
     _imgV = [[UIImageView alloc]init];
     _imgV.contentMode = UIViewContentModeScaleAspectFill;
-    _imgV.image = [UIImage imageNamed:@"fp_bigImage"];
+    _imgV.image = [NSBundle generateImageWithClass:[self class] imageName:@"fp_bigImage"];
     _imgV.layer.masksToBounds = YES;
     
     _poseImgV = [[UIImageView alloc]init];
-    _poseImgV.image = [UIImage imageNamed:@"fp_poseImage"];
+    _poseImgV.image = [NSBundle generateImageWithClass:[self class] imageName:@"fp_poseImage"];
     _poseImgV.contentMode = UIViewContentModeScaleAspectFill;
     _poseImgV.layer.masksToBounds = YES;
     _poseImgV.userInteractionEnabled = YES;

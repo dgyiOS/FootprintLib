@@ -12,6 +12,7 @@
 #import <Masonry/Masonry.h>
 #import "UIResponder+EventResponder.h"
 #import "DCHeader.h"
+#import "NSBundle+ImageAssets.h"
 
 @interface DCCommonView ()
 
@@ -58,8 +59,7 @@
     _tagLab.textColor = [UIColor blueColor];
     
     _tagTopicBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
-    _locImgV = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"fp_localImage"]];
+    _locImgV = [[UIImageView alloc]initWithImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_localImage"]];
     _locImgV.layer.masksToBounds = YES;
     
     _locInfoLab = [[UILabel alloc]init];
@@ -77,30 +77,31 @@
 //    [_contentLab setOpenString:@"展开" closeString:@"收起" font:[UIFont boldSystemFontOfSize:14.f] textColor:[UIColor redColor]];
     
     _praiseBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_praiseBtn setImage:[UIImage imageNamed:@"fp_laudNone"] forState:UIControlStateNormal];
-    [_praiseBtn setImage:[UIImage imageNamed:@"fp_laudAdd"] forState:UIControlStateSelected];
+    
+    [_praiseBtn setImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_laudNone"] forState:UIControlStateNormal];
+    [_praiseBtn setImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_laudAdd"] forState:UIControlStateSelected];
     
     _praiseCountLab = [[UILabel alloc]init];
     _praiseCountLab.textColor = [UIColor blackColor];
     
     _commentBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_commentBtn setImage:[UIImage imageNamed:@"fp_commentImage"] forState:UIControlStateNormal];
+    [_commentBtn setImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_commentImage"] forState:UIControlStateNormal];
     
     _commentCountLab = [[UILabel alloc]init];
     _commentCountLab.textColor = [UIColor blackColor];
     
     _shareBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_shareBtn setImage:[UIImage imageNamed:@"fp_shareImage"] forState:UIControlStateNormal];
+    [_shareBtn setImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_shareImage"] forState:UIControlStateNormal];
     
     _reportBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_reportBtn setImage:[UIImage imageNamed:@"fp_reportImage"] forState:UIControlStateNormal];
+    [_reportBtn setImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_reportImage"] forState:UIControlStateNormal];
     
     _deleteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_deleteBtn setImage:[UIImage imageNamed:@"fp_deleteImage"] forState:UIControlStateNormal];
+    [_deleteBtn setImage:[NSBundle generateImageWithClass:[self class] imageName:@"fp_deleteImage"] forState:UIControlStateNormal];
     
     _commentView = [[DCCommentView alloc]init];
     
-    _myIconImgV = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"fp_avatar"]];
+    _myIconImgV = [[UIImageView alloc]initWithImage:[NSBundle generateImageWithClass:[self class] imageName:@"avatar"]];
     _myIconImgV.layer.cornerRadius = 9;
     _myIconImgV.layer.masksToBounds = YES;
     _myIconImgV.contentMode = UIViewContentModeScaleAspectFill;
