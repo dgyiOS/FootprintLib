@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source_files = 'FootprintLib/Classes/**/*'
   
   s.resource_bundles = {
-     'FootprintLib' => ['FootprintLib/Assets/*.png']
+     'FootprintLib' => ['FootprintLib/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

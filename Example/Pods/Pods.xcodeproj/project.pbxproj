@@ -9,36 +9,37 @@
 /* Begin PBXBuildFile section */
 		0167D56B3B670E9C21389A234381BE91 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
 		0D043136A98CD8A3246EC57E94BDF7A3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		0EDB218960A4A65C58ADE823B45315FC /* DCFootprintCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F027D1E8BB08180AAAF4F6421F8F8E50 /* DCFootprintCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EDB218960A4A65C58ADE823B45315FC /* DCFootprintCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D77115CCF4F780474505B0CF1646801 /* DCFootprintCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		108A03011D82013020D1E7096F11BFA9 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AE717830F0B051E710F3D24327E54A1 /* DCUserInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BA07491C7B1C80A3E05B05C85FA09B /* DCUserInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		205F0AA8133B1C2FE2CC298B49F2B5AC /* DCHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C87B0331F318DCC13EAC0DF4E8A1CB /* DCHeader.m */; };
+		10D9DBDF063B6F97BE2BE7BF47E3B5EA /* FootprintLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80AE08D8CD656E8123E7A0140D1B8124 /* FootprintLib.bundle */; };
+		1AE717830F0B051E710F3D24327E54A1 /* DCUserInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD46EBA131D580CF0BC30C383D4CD88 /* DCUserInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		205F0AA8133B1C2FE2CC298B49F2B5AC /* DCHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C038D642732691545D5FE8FB4F2ED3 /* DCHeader.m */; };
 		217E7B1759856CB0244AE0D7F503E16B /* Pods-FootprintLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1273BCE14602B7B191E0936B7F283313 /* Pods-FootprintLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AE933346FFF269EF0E4E148C0D5E172 /* NSBundle+ImageAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8AC716878E8E1A5EA7F58BFB9C08A /* NSBundle+ImageAssets.m */; };
+		2AE933346FFF269EF0E4E148C0D5E172 /* NSBundle+ImageAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = D640825D8086A51527D0A52EA8B47AA4 /* NSBundle+ImageAssets.m */; };
 		2CCA4681433AD71C4505285DE72D9B0B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D0B8CF7040CDAEB8323BD7BF7BC5EBC /* NSMutableAttributedString+CTFrameRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A35CDD5CFAFD98310017C7AB2C560A /* NSMutableAttributedString+CTFrameRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0B8CF7040CDAEB8323BD7BF7BC5EBC /* NSMutableAttributedString+CTFrameRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9F7125AB57437F57F69EBC0807B62A /* NSMutableAttributedString+CTFrameRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F5906F9EDD9B2C357F97CF844685984 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		361DF70F6653CE010263423FDE185A12 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36B59FD105538300C2F855609E28488E /* UIResponder+EventResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E61ACE199A35702582614317B19AF24 /* UIResponder+EventResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B59FD105538300C2F855609E28488E /* UIResponder+EventResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E97B72CC7C1B65E07FF7AE5D57891E5 /* UIResponder+EventResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38B2551EB8AD2C1A0090E319918B8F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */; };
-		3A8E0330949C18B036FE63F4060686AC /* DCAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16271FC29546DB1A92F522738F494782 /* DCAttributedLabel.m */; };
+		3A8E0330949C18B036FE63F4060686AC /* DCAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D91FEAEA2BED15FA030A8CE10047DF6B /* DCAttributedLabel.m */; };
 		3B64AA6A5F065FFDC90342D098673198 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		3C90E72CE5EBF76EDEF9BF0D234463D7 /* DCCommonView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5FBAF8B645FB6DE85BBCD29AED157B /* DCCommonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C90E72CE5EBF76EDEF9BF0D234463D7 /* DCCommonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7CBBAFD147B93EFEEA397BD09445EF /* DCCommonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D8CD140255035BBD4F69812494D996B /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EEF1E0257B2F96BF39A7249F1A60A68 /* Pods-FootprintLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358B1856B21B6EC721A162FBBE3CD70 /* Pods-FootprintLib_Tests-dummy.m */; };
-		3F6DF4CFE5CCCFF3DA40092C6B98F4E6 /* DCCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2370A9F39809C75535E6C092DE9559 /* DCCommonView.m */; };
+		3F6DF4CFE5CCCFF3DA40092C6B98F4E6 /* DCCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA9ADF95DD196D8770318C34A21F569 /* DCCommonView.m */; };
 		420F46E2D760D06B740B17C5377C4751 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		495130961445B0AD6E9D1570C54A7BB0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		507457063895DA5D856CBD6EA0EDD92B /* DCHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 37AD18B8C7603AAC6DC8BB153D11C84A /* DCHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52BE4B6D8975BED3EFC1343E4B5037AA /* DCAttributedLabelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E67CC9630A61729F566D269F7C6EE6 /* DCAttributedLabelUtils.m */; };
-		52E6168D0F4788525B70D9F4B9FA7026 /* FootprintLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526270EF21E648AADD495A1EEF0D718 /* FootprintLib-dummy.m */; };
+		507457063895DA5D856CBD6EA0EDD92B /* DCHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F88E689A32011B6136E28B43519CE01D /* DCHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BE4B6D8975BED3EFC1343E4B5037AA /* DCAttributedLabelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F7505DA3E683611C7C16DB76D5051252 /* DCAttributedLabelUtils.m */; };
+		52E6168D0F4788525B70D9F4B9FA7026 /* FootprintLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0A3EFC218E39F1BFC1873AD65F9823 /* FootprintLib-dummy.m */; };
 		54E01D24599928C3FA0ABE7AA4A5922B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		58707ADEC6ADF40CEBB8F27CBCF8B7F3 /* NSMutableAttributedString+Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B803BD3E8004C493B7851970FC030 /* NSMutableAttributedString+Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58707ADEC6ADF40CEBB8F27CBCF8B7F3 /* NSMutableAttributedString+Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAE0F0440D0FD5FA481408BCB39BA7B /* NSMutableAttributedString+Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AADFF07F82382E0DCF918116BAC4FEC /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1D258861488089E9750F9D350BE97 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CD2DAFA5ED64E8504E358FFD138EAEB /* FootprintLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F93700FC1F988A751A820A414B1AEA14 /* FootprintLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD2DAFA5ED64E8504E358FFD138EAEB /* FootprintLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA6D8E495165D62B2C0221F7D5AC5F9 /* FootprintLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		785867BDC31867946A3AC0958AA220D7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		80366BC219362F5C2056BC6AE2C1BD7D /* DCCommentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D574A7C5BE1D6888BA7BB015AF1C85E /* DCCommentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80366BC219362F5C2056BC6AE2C1BD7D /* DCCommentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7178634195C0986D86BDC4CCC372E8ED /* DCCommentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80FD26CA71274F7B6FE4C51FDC6DC36D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
 		82ABF3834B6FC9644942614962B89201 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
 		87337129FD1DF8F179DBB1B883DD6EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
@@ -50,29 +51,29 @@
 		9BF974CCB47FDF95FE8029D763D1A3CD /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D78A9706951540E832B7B295833069E /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
 		9DD250695CC91AEB35967FE6FACB0676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */; };
-		A494D1878E5092F7A73BD75B477ACCBF /* DCUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB5E3135B31255D81C85187BC7F952 /* DCUserInfoView.m */; };
+		A494D1878E5092F7A73BD75B477ACCBF /* DCUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7FAF736F961536EE16965E203AE92 /* DCUserInfoView.m */; };
 		ABF2DF3F7D6BB69424EE875562F9F7AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
 		AFAEF36490D86A6CA372AF8AB6CF81FD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
-		B508B8DBC4BF3CEC001CA622ACC3A4D9 /* DCAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7576610A752AC841B7607933456FB1B7 /* DCAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B508B8DBC4BF3CEC001CA622ACC3A4D9 /* DCAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A1EC44CC30F3654F227031DFEDBB2F /* DCAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB0C0A833FD6414DF2A728EF469EFBCF /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF19E2B3914F13217993E13695371CE /* FootprintLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E6781F1BB71B1B25BAF1B92E6BF6E09 /* FootprintLib.bundle */; };
-		C11150C83689FFD2CA3EC69BDF0C55B1 /* DCFootprintProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 926057F43013E5B6731BE6C8E953ADD9 /* DCFootprintProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C12BE302F12A142DD328BA452032D229 /* NSMutableAttributedString+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = C64ACC8AFFA7C118E10466D65F9E2F6B /* NSMutableAttributedString+Config.m */; };
-		C3F7BDA9BB6CE165D1E3BFE281EE3FD5 /* UIResponder+EventResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAD2AC5212881FDF3D0A729292C5A4 /* UIResponder+EventResponder.m */; };
+		C11150C83689FFD2CA3EC69BDF0C55B1 /* DCFootprintProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A1749CB74DA43E3FED16BE9445CAC2 /* DCFootprintProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12BE302F12A142DD328BA452032D229 /* NSMutableAttributedString+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 036AC36593AB5B7A3508EE17CA318D21 /* NSMutableAttributedString+Config.m */; };
+		C3F7BDA9BB6CE165D1E3BFE281EE3FD5 /* UIResponder+EventResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0FE9CEF62EF2C6D8DA271E58FCAB74 /* UIResponder+EventResponder.m */; };
 		C6350FF3FE6460FDB4F068F6ED0BED71 /* Pods-FootprintLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDC8B3692137F8DA1009F4C34FD014B /* Pods-FootprintLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFBAAF553971D448327A62CC8626E4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
 		D20ACC28EE2E0E37F879713C62225DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		D455F54C98D939C9D68C947ECE28D4AA /* DCPicsBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1955282035324B20AD882C27E31DDA5 /* DCPicsBannerView.m */; };
-		DB0EBB06810326E99019AFA2558AC0F8 /* NSBundle+ImageAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A451A36DEB913DD1867ED37C8021B9 /* NSBundle+ImageAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCD2E624696E13992FCD97D1A6A5337A /* NSMutableAttributedString+CTFrameRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 3435D220FD03684095A70D3C017CDE5B /* NSMutableAttributedString+CTFrameRef.m */; };
+		D455F54C98D939C9D68C947ECE28D4AA /* DCPicsBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CD206E50F8394204C1C5E92648AEA3 /* DCPicsBannerView.m */; };
+		DB0EBB06810326E99019AFA2558AC0F8 /* NSBundle+ImageAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 7274F3DB06DE2A1CCD991D9E36335C3E /* NSBundle+ImageAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD2E624696E13992FCD97D1A6A5337A /* NSMutableAttributedString+CTFrameRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D83815FEACB73BE0EF32D2EFCFF15E3 /* NSMutableAttributedString+CTFrameRef.m */; };
 		DF24DB2186499E12AA248D78A0496C04 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0F5E33292C4CC407CA81B57E509A0C0 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3764C758DC30160F10A604E27ADCBF7 /* Pods-FootprintLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2926D78FF4F5CC2DFCE404C8A0B66603 /* Pods-FootprintLib_Example-dummy.m */; };
-		E3F5567AC66D490B3BD55B252FFC1448 /* DCFootprintCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C3A69420E9B7A869B14E49AC49E449 /* DCFootprintCell.m */; };
-		EFBCBD80F8CA69CE95F6D94704FD5761 /* DCCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0007FF9CC259BBE5DA12AB16190DA8 /* DCCommentView.m */; };
+		E3F5567AC66D490B3BD55B252FFC1448 /* DCFootprintCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 472065C254EB77E54EC806A3C7B37A2E /* DCFootprintCell.m */; };
+		EFBCBD80F8CA69CE95F6D94704FD5761 /* DCCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E4CA97F3914B15AC4D32FB7FA0A9F /* DCCommentView.m */; };
 		FE97F86E391A100951281B5699EC234C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF4914E70A673241F557BAF3D6A7E8C9 /* DCAttributedLabelUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E58C2BCD2ADB50C732A299C7EB70155B /* DCAttributedLabelUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF5679A4362A984B3E09314909063E91 /* DCPicsBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A37FA8ABDF05BB1FF00DDA2B51BEF2 /* DCPicsBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4914E70A673241F557BAF3D6A7E8C9 /* DCAttributedLabelUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EE26EC1A52C981C63C60924315DE27EB /* DCAttributedLabelUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF5679A4362A984B3E09314909063E91 /* DCPicsBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED09E84407DAB7A0872E9BAD21933F6F /* DCPicsBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,98 +115,99 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036AC36593AB5B7A3508EE17CA318D21 /* NSMutableAttributedString+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Config.m"; sourceTree = "<group>"; };
 		03CCA0EA8DA824740FEB7A36D5EF2CBA /* Pods_FootprintLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FootprintLib_Tests.framework; path = "Pods-FootprintLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		046B803BD3E8004C493B7851970FC030 /* NSMutableAttributedString+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Config.h"; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		09DE55C11931BFEA878C13872AABB81B /* FootprintLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FootprintLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0D83815FEACB73BE0EF32D2EFCFF15E3 /* NSMutableAttributedString+CTFrameRef.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CTFrameRef.m"; sourceTree = "<group>"; };
+		0DB80DA6795D547C5267BA65CBC47087 /* FootprintLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FootprintLib.modulemap; sourceTree = "<group>"; };
+		0EF358BB9400014F6979C65318473050 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		104C1197BB3DE734A31F3AAE29CEAD58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1273BCE14602B7B191E0936B7F283313 /* Pods-FootprintLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FootprintLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		16271FC29546DB1A92F522738F494782 /* DCAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DCAttributedLabel.m; sourceTree = "<group>"; };
 		1762FF084510F308E1D8783C56B11BCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1848FDE685515A37AF4BCD64C9B86BC8 /* Pods-FootprintLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootprintLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1A77FBAC3F3CB940E200677B6859A546 /* Pods-FootprintLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FootprintLib_Example.modulemap"; sourceTree = "<group>"; };
+		1AAE0F0440D0FD5FA481408BCB39BA7B /* NSMutableAttributedString+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Config.h"; sourceTree = "<group>"; };
+		1B9E4CA97F3914B15AC4D32FB7FA0A9F /* DCCommentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCCommentView.m; path = FootprintLib/Classes/DCCommentView.m; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		20C3A69420E9B7A869B14E49AC49E449 /* DCFootprintCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCFootprintCell.m; path = FootprintLib/Classes/DCFootprintCell.m; sourceTree = "<group>"; };
+		28C038D642732691545D5FE8FB4F2ED3 /* DCHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCHeader.m; path = FootprintLib/Classes/DCHeader.m; sourceTree = "<group>"; };
 		2926D78FF4F5CC2DFCE404C8A0B66603 /* Pods-FootprintLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FootprintLib_Example-dummy.m"; sourceTree = "<group>"; };
 		2CFEA531005802FFBC319ECC46D33C9D /* Pods_FootprintLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FootprintLib_Example.framework; path = "Pods-FootprintLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D0007FF9CC259BBE5DA12AB16190DA8 /* DCCommentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCCommentView.m; path = FootprintLib/Classes/DCCommentView.m; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		3435D220FD03684095A70D3C017CDE5B /* NSMutableAttributedString+CTFrameRef.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CTFrameRef.m"; sourceTree = "<group>"; };
 		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		37AD18B8C7603AAC6DC8BB153D11C84A /* DCHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCHeader.h; path = FootprintLib/Classes/DCHeader.h; sourceTree = "<group>"; };
 		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		3D898BEE3940A94FAFB730F23A8280EF /* Pods-FootprintLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FootprintLib_Tests.modulemap"; sourceTree = "<group>"; };
 		3DE78F6550C257099BD90A6602576A46 /* Pods-FootprintLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootprintLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3EDC8B3692137F8DA1009F4C34FD014B /* Pods-FootprintLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FootprintLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4950A22345340C1E04D38DE00281E9A9 /* FootprintLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootprintLib.xcconfig; sourceTree = "<group>"; };
+		3F63FE4835EF4BA41D4416573369A655 /* FootprintLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FootprintLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		472065C254EB77E54EC806A3C7B37A2E /* DCFootprintCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCFootprintCell.m; path = FootprintLib/Classes/DCFootprintCell.m; sourceTree = "<group>"; };
 		4D98C91AE4139227D4776B494BD9B8B1 /* Pods-FootprintLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootprintLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E9F7125AB57437F57F69EBC0807B62A /* NSMutableAttributedString+CTFrameRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CTFrameRef.h"; sourceTree = "<group>"; };
 		5358B1856B21B6EC721A162FBBE3CD70 /* Pods-FootprintLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FootprintLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		59C87B0331F318DCC13EAC0DF4E8A1CB /* DCHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCHeader.m; path = FootprintLib/Classes/DCHeader.m; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5B6479BF36EE223EAF858DC36DEE9C30 /* FootprintLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FootprintLib.modulemap; sourceTree = "<group>"; };
 		5E6781F1BB71B1B25BAF1B92E6BF6E09 /* FootprintLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FootprintLib.bundle; path = "FootprintLib-FootprintLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAF1B59A5DABC36340B526D62B956AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F144AF48BE5BB6D753D3DDB59078862 /* Pods-FootprintLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FootprintLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		61A35CDD5CFAFD98310017C7AB2C560A /* NSMutableAttributedString+CTFrameRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CTFrameRef.h"; sourceTree = "<group>"; };
-		65A8AC716878E8E1A5EA7F58BFB9C08A /* NSBundle+ImageAssets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+ImageAssets.m"; path = "FootprintLib/Classes/NSBundle+ImageAssets.m"; sourceTree = "<group>"; };
+		62A1749CB74DA43E3FED16BE9445CAC2 /* DCFootprintProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCFootprintProtocol.h; path = FootprintLib/Classes/DCFootprintProtocol.h; sourceTree = "<group>"; };
 		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		7576610A752AC841B7607933456FB1B7 /* DCAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCAttributedLabel.h; sourceTree = "<group>"; };
+		7178634195C0986D86BDC4CCC372E8ED /* DCCommentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCCommentView.h; path = FootprintLib/Classes/DCCommentView.h; sourceTree = "<group>"; };
+		7274F3DB06DE2A1CCD991D9E36335C3E /* NSBundle+ImageAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+ImageAssets.h"; path = "FootprintLib/Classes/NSBundle+ImageAssets.h"; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7B7CBBAFD147B93EFEEA397BD09445EF /* DCCommonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCCommonView.h; path = FootprintLib/Classes/DCCommonView.h; sourceTree = "<group>"; };
 		7D0DA449B29B7F33D94BE07DBA8D4483 /* Pods-FootprintLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FootprintLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		80C2A680188D5985B657BAD49D4F8FA4 /* ResourceBundle-FootprintLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FootprintLib-Info.plist"; sourceTree = "<group>"; };
+		7FD46EBA131D580CF0BC30C383D4CD88 /* DCUserInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUserInfoView.h; path = FootprintLib/Classes/DCUserInfoView.h; sourceTree = "<group>"; };
+		80AE08D8CD656E8123E7A0140D1B8124 /* FootprintLib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FootprintLib.bundle; path = FootprintLib/Assets/FootprintLib.bundle; sourceTree = "<group>"; };
 		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E67CC9630A61729F566D269F7C6EE6 /* DCAttributedLabelUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DCAttributedLabelUtils.m; sourceTree = "<group>"; };
-		8526270EF21E648AADD495A1EEF0D718 /* FootprintLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FootprintLib-dummy.m"; sourceTree = "<group>"; };
-		8CEB5E3135B31255D81C85187BC7F952 /* DCUserInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCUserInfoView.m; path = FootprintLib/Classes/DCUserInfoView.m; sourceTree = "<group>"; };
-		8E61ACE199A35702582614317B19AF24 /* UIResponder+EventResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+EventResponder.h"; path = "FootprintLib/Classes/UIResponder+EventResponder.h"; sourceTree = "<group>"; };
-		8ECFECF5C91859BAB7A449C2F322084E /* FootprintLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootprintLib-prefix.pch"; sourceTree = "<group>"; };
-		926057F43013E5B6731BE6C8E953ADD9 /* DCFootprintProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCFootprintProtocol.h; path = FootprintLib/Classes/DCFootprintProtocol.h; sourceTree = "<group>"; };
+		8D77115CCF4F780474505B0CF1646801 /* DCFootprintCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCFootprintCell.h; path = FootprintLib/Classes/DCFootprintCell.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9507BD5D0E74C9F46A09FC16EE8FAB42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952CD2E205CAB6BE7BC8C344AB9AC94D /* FootprintLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootprintLib.xcconfig; sourceTree = "<group>"; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		97A1EC44CC30F3654F227031DFEDBB2F /* DCAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCAttributedLabel.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		9D574A7C5BE1D6888BA7BB015AF1C85E /* DCCommentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCCommentView.h; path = FootprintLib/Classes/DCCommentView.h; sourceTree = "<group>"; };
-		9F3E32BE1D95138E2B200CEA665BC5F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9E97B72CC7C1B65E07FF7AE5D57891E5 /* UIResponder+EventResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+EventResponder.h"; path = "FootprintLib/Classes/UIResponder+EventResponder.h"; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		A23FE4E67CA636BEF15013DAED6357F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5A37FA8ABDF05BB1FF00DDA2B51BEF2 /* DCPicsBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPicsBannerView.h; path = FootprintLib/Classes/DCPicsBannerView.h; sourceTree = "<group>"; };
+		AAC7FAF736F961536EE16965E203AE92 /* DCUserInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCUserInfoView.m; path = FootprintLib/Classes/DCUserInfoView.m; sourceTree = "<group>"; };
+		ABA9ADF95DD196D8770318C34A21F569 /* DCCommonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCCommonView.m; path = FootprintLib/Classes/DCCommonView.m; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		AD0A3EFC218E39F1BFC1873AD65F9823 /* FootprintLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FootprintLib-dummy.m"; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9A451A36DEB913DD1867ED37C8021B9 /* NSBundle+ImageAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+ImageAssets.h"; path = "FootprintLib/Classes/NSBundle+ImageAssets.h"; sourceTree = "<group>"; };
-		BD2370A9F39809C75535E6C092DE9559 /* DCCommonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCCommonView.m; path = FootprintLib/Classes/DCCommonView.m; sourceTree = "<group>"; };
-		BE5FBAF8B645FB6DE85BBCD29AED157B /* DCCommonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCCommonView.h; path = FootprintLib/Classes/DCCommonView.h; sourceTree = "<group>"; };
+		B4CD206E50F8394204C1C5E92648AEA3 /* DCPicsBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPicsBannerView.m; path = FootprintLib/Classes/DCPicsBannerView.m; sourceTree = "<group>"; };
+		BA0FE9CEF62EF2C6D8DA271E58FCAB74 /* UIResponder+EventResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+EventResponder.m"; path = "FootprintLib/Classes/UIResponder+EventResponder.m"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C500B5139E35BD5D3ACB0D067F9AFCAA /* FootprintLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FootprintLib.framework; path = FootprintLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C64ACC8AFFA7C118E10466D65F9E2F6B /* NSMutableAttributedString+Config.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Config.m"; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		C7BA07491C7B1C80A3E05B05C85FA09B /* DCUserInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUserInfoView.h; path = FootprintLib/Classes/DCUserInfoView.h; sourceTree = "<group>"; };
 		CA16B6664C5C93F8A92505631EDD0092 /* Pods-FootprintLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FootprintLib_Example-resources.sh"; sourceTree = "<group>"; };
-		D3FD15F3DA94E99FBC7B41B05E265E3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D640825D8086A51527D0A52EA8B47AA4 /* NSBundle+ImageAssets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+ImageAssets.m"; path = "FootprintLib/Classes/NSBundle+ImageAssets.m"; sourceTree = "<group>"; };
+		D6DEA1E43E9B3A9BBE887681DFCAF1D2 /* ResourceBundle-FootprintLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FootprintLib-Info.plist"; sourceTree = "<group>"; };
+		D91FEAEA2BED15FA030A8CE10047DF6B /* DCAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DCAttributedLabel.m; sourceTree = "<group>"; };
 		E2067171D2883805AE8AF3D40C1D23D0 /* Pods-FootprintLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FootprintLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E58C2BCD2ADB50C732A299C7EB70155B /* DCAttributedLabelUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCAttributedLabelUtils.h; sourceTree = "<group>"; };
 		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		EBA6D8E495165D62B2C0221F7D5AC5F9 /* FootprintLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootprintLib-umbrella.h"; sourceTree = "<group>"; };
+		EBE7EB0EA38A195AE2DF1C60305D7DC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		ED09E84407DAB7A0872E9BAD21933F6F /* DCPicsBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPicsBannerView.h; path = FootprintLib/Classes/DCPicsBannerView.h; sourceTree = "<group>"; };
+		EE26EC1A52C981C63C60924315DE27EB /* DCAttributedLabelUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCAttributedLabelUtils.h; sourceTree = "<group>"; };
 		EE6AB929C182AB37C921733B87D416E4 /* Pods-FootprintLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FootprintLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EF155C53F5E52BD77A7254F0500A6760 /* Pods-FootprintLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FootprintLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		F027D1E8BB08180AAAF4F6421F8F8E50 /* DCFootprintCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCFootprintCell.h; path = FootprintLib/Classes/DCFootprintCell.h; sourceTree = "<group>"; };
 		F15AF98FB8D947A7DB9B10BF2710EFC8 /* Pods-FootprintLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootprintLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1955282035324B20AD882C27E31DDA5 /* DCPicsBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPicsBannerView.m; path = FootprintLib/Classes/DCPicsBannerView.m; sourceTree = "<group>"; };
 		F1DF4CFDE051A456E547FC4C9762C115 /* Pods-FootprintLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FootprintLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F1EAD2AC5212881FDF3D0A729292C5A4 /* UIResponder+EventResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+EventResponder.m"; path = "FootprintLib/Classes/UIResponder+EventResponder.m"; sourceTree = "<group>"; };
 		F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F73CD09B4F6AC33C907C06129A787700 /* FootprintLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootprintLib-prefix.pch"; sourceTree = "<group>"; };
+		F7505DA3E683611C7C16DB76D5051252 /* DCAttributedLabelUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DCAttributedLabelUtils.m; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F93700FC1F988A751A820A414B1AEA14 /* FootprintLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootprintLib-umbrella.h"; sourceTree = "<group>"; };
+		F88E689A32011B6136E28B43519CE01D /* DCHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCHeader.h; path = FootprintLib/Classes/DCHeader.h; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		FFE1105BCA0CA8CBA6D1D911574C3250 /* Pods-FootprintLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FootprintLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -266,19 +268,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		02CD04A193BFEEAB5875079F3F0D24A5 /* Support Files */ = {
+		28E5D20B286EEC4CB0EAE73D6962014C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5B6479BF36EE223EAF858DC36DEE9C30 /* FootprintLib.modulemap */,
-				4950A22345340C1E04D38DE00281E9A9 /* FootprintLib.xcconfig */,
-				8526270EF21E648AADD495A1EEF0D718 /* FootprintLib-dummy.m */,
-				8ECFECF5C91859BAB7A449C2F322084E /* FootprintLib-prefix.pch */,
-				F93700FC1F988A751A820A414B1AEA14 /* FootprintLib-umbrella.h */,
-				9507BD5D0E74C9F46A09FC16EE8FAB42 /* Info.plist */,
-				80C2A680188D5985B657BAD49D4F8FA4 /* ResourceBundle-FootprintLib-Info.plist */,
+				5043B17A19FF694AB298541F2F90C0B2 /* FootprintLib */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FootprintLib";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		39415DF999CC76B04ABE5AAB0474050B /* Pods-FootprintLib_Tests */ = {
@@ -299,12 +294,43 @@
 			path = "Target Support Files/Pods-FootprintLib_Tests";
 			sourceTree = "<group>";
 		};
-		51CFEBC703F91719E89D35FC339ECB7D /* Development Pods */ = {
+		3D910663E6C45B2B280DF16FABF6603D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BF73A54A95C54DDE8A0921070AF0EB31 /* FootprintLib */,
+				3F63FE4835EF4BA41D4416573369A655 /* FootprintLib.podspec */,
+				EBE7EB0EA38A195AE2DF1C60305D7DC5 /* LICENSE */,
+				0EF358BB9400014F6979C65318473050 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5043B17A19FF694AB298541F2F90C0B2 /* FootprintLib */ = {
+			isa = PBXGroup;
+			children = (
+				7178634195C0986D86BDC4CCC372E8ED /* DCCommentView.h */,
+				1B9E4CA97F3914B15AC4D32FB7FA0A9F /* DCCommentView.m */,
+				7B7CBBAFD147B93EFEEA397BD09445EF /* DCCommonView.h */,
+				ABA9ADF95DD196D8770318C34A21F569 /* DCCommonView.m */,
+				8D77115CCF4F780474505B0CF1646801 /* DCFootprintCell.h */,
+				472065C254EB77E54EC806A3C7B37A2E /* DCFootprintCell.m */,
+				62A1749CB74DA43E3FED16BE9445CAC2 /* DCFootprintProtocol.h */,
+				F88E689A32011B6136E28B43519CE01D /* DCHeader.h */,
+				28C038D642732691545D5FE8FB4F2ED3 /* DCHeader.m */,
+				ED09E84407DAB7A0872E9BAD21933F6F /* DCPicsBannerView.h */,
+				B4CD206E50F8394204C1C5E92648AEA3 /* DCPicsBannerView.m */,
+				7FD46EBA131D580CF0BC30C383D4CD88 /* DCUserInfoView.h */,
+				AAC7FAF736F961536EE16965E203AE92 /* DCUserInfoView.m */,
+				7274F3DB06DE2A1CCD991D9E36335C3E /* NSBundle+ImageAssets.h */,
+				D640825D8086A51527D0A52EA8B47AA4 /* NSBundle+ImageAssets.m */,
+				9E97B72CC7C1B65E07FF7AE5D57891E5 /* UIResponder+EventResponder.h */,
+				BA0FE9CEF62EF2C6D8DA271E58FCAB74 /* UIResponder+EventResponder.m */,
+				3D910663E6C45B2B280DF16FABF6603D /* Pod */,
+				D4D07A63E557F80CB993B8EEB3688FE4 /* Resources */,
+				C7AE81D9D33D7CCDA1261D4B5E9331A1 /* Support Files */,
+				BAAD140FDC877CB17187BD1BEFBCFF83 /* TextMore */,
+			);
+			name = FootprintLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		53070E374FED7AF8E6454864B06AAA61 /* Pods-FootprintLib_Example */ = {
@@ -334,21 +360,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6D573F4CAA01393C1547220F23B3025E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				09DE55C11931BFEA878C13872AABB81B /* FootprintLib.podspec */,
-				D3FD15F3DA94E99FBC7B41B05E265E3B /* LICENSE */,
-				9F3E32BE1D95138E2B200CEA665BC5F9 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				51CFEBC703F91719E89D35FC339ECB7D /* Development Pods */,
+				28E5D20B286EEC4CB0EAE73D6962014C /* Development Pods */,
 				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				A3128AE87C1F7B5DE7A3DF1B50C28A68 /* Products */,
@@ -402,32 +418,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF73A54A95C54DDE8A0921070AF0EB31 /* FootprintLib */ = {
+		BAAD140FDC877CB17187BD1BEFBCFF83 /* TextMore */ = {
 			isa = PBXGroup;
 			children = (
-				9D574A7C5BE1D6888BA7BB015AF1C85E /* DCCommentView.h */,
-				2D0007FF9CC259BBE5DA12AB16190DA8 /* DCCommentView.m */,
-				BE5FBAF8B645FB6DE85BBCD29AED157B /* DCCommonView.h */,
-				BD2370A9F39809C75535E6C092DE9559 /* DCCommonView.m */,
-				F027D1E8BB08180AAAF4F6421F8F8E50 /* DCFootprintCell.h */,
-				20C3A69420E9B7A869B14E49AC49E449 /* DCFootprintCell.m */,
-				926057F43013E5B6731BE6C8E953ADD9 /* DCFootprintProtocol.h */,
-				37AD18B8C7603AAC6DC8BB153D11C84A /* DCHeader.h */,
-				59C87B0331F318DCC13EAC0DF4E8A1CB /* DCHeader.m */,
-				A5A37FA8ABDF05BB1FF00DDA2B51BEF2 /* DCPicsBannerView.h */,
-				F1955282035324B20AD882C27E31DDA5 /* DCPicsBannerView.m */,
-				C7BA07491C7B1C80A3E05B05C85FA09B /* DCUserInfoView.h */,
-				8CEB5E3135B31255D81C85187BC7F952 /* DCUserInfoView.m */,
-				B9A451A36DEB913DD1867ED37C8021B9 /* NSBundle+ImageAssets.h */,
-				65A8AC716878E8E1A5EA7F58BFB9C08A /* NSBundle+ImageAssets.m */,
-				8E61ACE199A35702582614317B19AF24 /* UIResponder+EventResponder.h */,
-				F1EAD2AC5212881FDF3D0A729292C5A4 /* UIResponder+EventResponder.m */,
-				6D573F4CAA01393C1547220F23B3025E /* Pod */,
-				02CD04A193BFEEAB5875079F3F0D24A5 /* Support Files */,
-				D565FA761835BBE65C947741BD7352C3 /* TextMore */,
+				97A1EC44CC30F3654F227031DFEDBB2F /* DCAttributedLabel.h */,
+				D91FEAEA2BED15FA030A8CE10047DF6B /* DCAttributedLabel.m */,
+				EE26EC1A52C981C63C60924315DE27EB /* DCAttributedLabelUtils.h */,
+				F7505DA3E683611C7C16DB76D5051252 /* DCAttributedLabelUtils.m */,
+				1AAE0F0440D0FD5FA481408BCB39BA7B /* NSMutableAttributedString+Config.h */,
+				036AC36593AB5B7A3508EE17CA318D21 /* NSMutableAttributedString+Config.m */,
+				4E9F7125AB57437F57F69EBC0807B62A /* NSMutableAttributedString+CTFrameRef.h */,
+				0D83815FEACB73BE0EF32D2EFCFF15E3 /* NSMutableAttributedString+CTFrameRef.m */,
 			);
-			name = FootprintLib;
-			path = ../..;
+			name = TextMore;
+			path = FootprintLib/Classes/TextMore;
+			sourceTree = "<group>";
+		};
+		C7AE81D9D33D7CCDA1261D4B5E9331A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DB80DA6795D547C5267BA65CBC47087 /* FootprintLib.modulemap */,
+				952CD2E205CAB6BE7BC8C344AB9AC94D /* FootprintLib.xcconfig */,
+				AD0A3EFC218E39F1BFC1873AD65F9823 /* FootprintLib-dummy.m */,
+				F73CD09B4F6AC33C907C06129A787700 /* FootprintLib-prefix.pch */,
+				EBA6D8E495165D62B2C0221F7D5AC5F9 /* FootprintLib-umbrella.h */,
+				104C1197BB3DE734A31F3AAE29CEAD58 /* Info.plist */,
+				D6DEA1E43E9B3A9BBE887681DFCAF1D2 /* ResourceBundle-FootprintLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FootprintLib";
 			sourceTree = "<group>";
 		};
 		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
@@ -444,20 +463,12 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		D565FA761835BBE65C947741BD7352C3 /* TextMore */ = {
+		D4D07A63E557F80CB993B8EEB3688FE4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7576610A752AC841B7607933456FB1B7 /* DCAttributedLabel.h */,
-				16271FC29546DB1A92F522738F494782 /* DCAttributedLabel.m */,
-				E58C2BCD2ADB50C732A299C7EB70155B /* DCAttributedLabelUtils.h */,
-				84E67CC9630A61729F566D269F7C6EE6 /* DCAttributedLabelUtils.m */,
-				046B803BD3E8004C493B7851970FC030 /* NSMutableAttributedString+Config.h */,
-				C64ACC8AFFA7C118E10466D65F9E2F6B /* NSMutableAttributedString+Config.m */,
-				61A35CDD5CFAFD98310017C7AB2C560A /* NSMutableAttributedString+CTFrameRef.h */,
-				3435D220FD03684095A70D3C017CDE5B /* NSMutableAttributedString+CTFrameRef.m */,
+				80AE08D8CD656E8123E7A0140D1B8124 /* FootprintLib.bundle */,
 			);
-			name = TextMore;
-			path = FootprintLib/Classes/TextMore;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */ = {
@@ -586,7 +597,7 @@
 			buildPhases = (
 				964F80867227C623C6B22C584486969E /* Sources */,
 				63D850C38D817B1822B54060564A1625 /* Frameworks */,
-				411DE7C48F86ABD4ED893D0B5450BB28 /* Resources */,
+				B27B0C1374640DEE7B7CFC98861A2193 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -673,10 +684,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		411DE7C48F86ABD4ED893D0B5450BB28 /* Resources */ = {
+		B27B0C1374640DEE7B7CFC98861A2193 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D9DBDF063B6F97BE2BE7BF47E3B5EA /* FootprintLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -979,7 +991,7 @@
 		};
 		61E5E080EB8F80854B03F35219A549B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4950A22345340C1E04D38DE00281E9A9 /* FootprintLib.xcconfig */;
+			baseConfigurationReference = 952CD2E205CAB6BE7BC8C344AB9AC94D /* FootprintLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FootprintLib";
@@ -1026,7 +1038,7 @@
 		};
 		6AA5E1CEC15DDCB46B349865A641948A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4950A22345340C1E04D38DE00281E9A9 /* FootprintLib.xcconfig */;
+			baseConfigurationReference = 952CD2E205CAB6BE7BC8C344AB9AC94D /* FootprintLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1057,7 +1069,7 @@
 		};
 		772B2ABA2D2A65A5443883ABBE0845E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4950A22345340C1E04D38DE00281E9A9 /* FootprintLib.xcconfig */;
+			baseConfigurationReference = 952CD2E205CAB6BE7BC8C344AB9AC94D /* FootprintLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FootprintLib";
@@ -1073,7 +1085,7 @@
 		};
 		83817FE27991AB1FA7D6C276DD0AB415 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4950A22345340C1E04D38DE00281E9A9 /* FootprintLib.xcconfig */;
+			baseConfigurationReference = 952CD2E205CAB6BE7BC8C344AB9AC94D /* FootprintLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
